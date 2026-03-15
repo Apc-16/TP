@@ -54,3 +54,4 @@ const profile = {
 }
 
 
+export default ProfileSection
