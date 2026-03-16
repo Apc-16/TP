@@ -2,6 +2,18 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import './components/Header'
+import './components/Card'
+import './components/CardList'
+import './components/Footer'
+import './components/MainSection'
+import './components/ProfileSection'
+import './components/Header.css'
+import './components/Card.css'
+import './components/CardList.css'
+import './components/Footer.css'
+import './components/MainSection.css'
+import './components/ProfileSection.css'
 
 function App() {
   const [count, setCount] = useState(0)
