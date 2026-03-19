@@ -10,6 +10,7 @@ import Header from './components/Header.jsx'
 import MainSection from './components/MainSection.jsx'
 import Card from './components/Card.jsx'
 import CardList from './components/CardList.jsx'
+import Footer from './components/Footer.jsx'
 
 
 function App() {
@@ -28,6 +29,10 @@ function App() {
       </div>
       
     </main> 
+
+    <footer>
+      <Footer />
+    </footer>
     
 
     </>
