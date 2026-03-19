@@ -27,3 +27,5 @@ function CardList() {
         </ul>
     );
 }
+
+export default Card

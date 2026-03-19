@@ -1,5 +1,15 @@
-import './ProfileSection.css'
-import Image from './Tp1/src/components/Capture d’écran 2026-03-14 155556.png';
+import './ProfileSection.css';
+import Image from './Capture d’écran 2026-03-14 155556.png';
+
+const profile = {
+    photoProfile: {Image},
+    nom: "Doe",
+    prenom: "Jane",
+    bio: "Lorem ipsum dolor sit, amet consectetur adipisicing elit 📷✈️🏕️", 
+    nbrPoste: 4,
+    nbrAbonnes: 188,
+    nbrAbonnement: 206,
+}
 
 function ProfileSection() {
     return (
@@ -15,7 +25,7 @@ function ProfileSection() {
 function NameProfile() {
 return (
    <div className="profile-name-image">
-    <img src={profile.photoProfile} alt="Profile-image" />
+    <img src={Image} alt="Profile-image" />
        <h1 className="profile-user-name">
         {profile.prenom} {profile.nom}
         </h1> 
@@ -33,9 +43,9 @@ function StatsProfile () {
     return (
         <div className="profile-stats">
             <ul>
-                <li>{profile.nbrPoste}</li>
-                <li>{profile.nbrAbonnes}</li>
-                <li>{profile.nbrAbonnement}</li>
+                <li>{profile.nbrPoste}  posts</li>
+                <li>{profile.nbrAbonnes} followers</li>
+                <li>{profile.nbrAbonnement} following</li>
             </ul>
         </div>
 
@@ -43,15 +53,7 @@ function StatsProfile () {
 }
 
 
-const profile = {
-    photoProfile: './Tp1/src/components/Capture d’écran 2026-03-14 155556.png',
-    nom: "Doe",
-    prenom: "Jane",
-    bio: "Lorem ipsum dolor sit, amet consectetur adipisicing elit 📷✈️🏕️", 
-    nbrPoste: 4,
-    nbrAbonnes: 188,
-    nbrAbonnement: 206,
-}
+
 
 
 export default ProfileSection

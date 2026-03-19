@@ -1,2 +1,3 @@
-import './MainContent.css';
+import './MainSection.css';
 
+export default MainSection
