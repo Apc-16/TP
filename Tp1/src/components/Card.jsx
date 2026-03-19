@@ -12,8 +12,10 @@ const cards = [
 ];
 
 
+
 function CardList() {
     return (
+    <div className="card">
         <ul>
             {cards.map(card => (
                 <li key={card.id}>
@@ -25,7 +27,8 @@ function CardList() {
                 </li>
             ))}
         </ul>
+    </div>
     );
 }
 
-export default Card
+export default CardList
