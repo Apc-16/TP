@@ -9,6 +9,7 @@ import ProfileSection from './components/ProfileSection'
 import Header from './components/Header.jsx'
 import MainSection from './components/MainSection.jsx'
 import Card from './components/Card.jsx'
+import CardList from './components/CardList.jsx'
 
 
 function App() {
@@ -21,8 +22,9 @@ function App() {
       <div className="profile">
       <ProfileSection />
       </div>
-      <div className="card">
-        <Card />
+
+      <div className="card-list">
+      <CardList />
       </div>
       
     </main> 
